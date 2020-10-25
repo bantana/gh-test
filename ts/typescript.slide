@@ -1,0 +1,30 @@
+# TypeScript Learning
+
+## 概述
+
+1. 编译器
+2. 类型系统
+    TypeScript  VS JavaScript
+3. neovim
+4. tsconfig.json
+5. package.json
+6. eslint
+
+## First code
+
+```typescript
+type Reader = {}
+type Author = {}
+type staff  = {}
+type User = Reader | Author | staff
+type Users = User[]
+
+interface User {
+    signUp()
+    signIn()
+    signOut()
+    destroy()
+    detail()
+}
+```
+
